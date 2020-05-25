@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 80px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .column_name,
@@ -18,14 +18,14 @@ body {
 .form_name,
 .form_todo {
   display: inline-block;
-  padding-top: 40px;
+  padding-top: 20px;
   border-bottom: 1px solid white;
 }
 
 .name_write,
 .todo_write {
   background-color: transparent;
-  text-align:center;
+  text-align: center;
   color: white;
   border: none;
   font-size: 30px;
@@ -77,9 +77,32 @@ body {
 }
 
 .css-toDoList {
-  margin-top:20px;
+  margin-top: 20px;
   list-style-type: none;
   display: flex;
-text-align:center;
+  text-align: center;
   flex-direction: column;
+}
+
+.toDoList {
+  margin-top: 10px;
+}
+
+.myBtn {
+  background-color: transparent;
+  color: black;
+  border: 1px solid white;
+  font-size: 10px;
+  padding: 10px 10px;
+  transition-duration: 0.4s;
+}
+
+.myBtn:hover {
+  background-color: #e7e7e7;
+  color: white;
+}
+
+.toDoContent {
+  margin-top: 10px;
+  padding: 5px 3px;
 }
